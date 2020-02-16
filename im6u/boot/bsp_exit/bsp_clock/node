@@ -1,0 +1,10 @@
+在链接文件中指定了 start.o main.o 所在的位
+
+
+配置arm主频
+
+判断是否是PLL1_main
+是 则切换为
+
+配置PLL1_main倍频 和使能
+

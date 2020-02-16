@@ -1,0 +1,18 @@
+\ 相当于换行符，表示这一行没写完
+
+patsubst 模式字符替换函数，
+使用$(patsubst pattern , replacement , text)
+
+dir      用于获取目录
+从文件名中提取目录 
+$(dir /dev/sdb/123.txt)
+返回 /dev/sdb/
+
+foreach 用于完成循环
+$(foreach var , list , text)
+
+wildcard 函数 
+在使用函数或使用变量时，不能直接使用通配符 % *之类的
+需要使用$(wildcard *.c)
+
+nodir 用于去除目录部分
